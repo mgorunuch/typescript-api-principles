@@ -1,0 +1,26 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "removeComments": false,
+    "outDir": "./build/",
+    "sourceMap": true,
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.promise",
+      "es2015.iterable"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "./src/**/*.types.ts",
+    "./src/**/*.ts"
+  ],
+  "files": [
+    "./src/index.ts"
+  ]
+}

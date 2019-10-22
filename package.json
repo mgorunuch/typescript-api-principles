@@ -1,0 +1,11 @@
+{
+  "name": "typescript-api-principles",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:start": "tsc; node ./build/index.js",
+    "start": "node ./build/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
